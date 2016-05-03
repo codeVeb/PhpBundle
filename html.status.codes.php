@@ -10,6 +10,10 @@ Redirection		3xx
 Client Error	4xx
 Server Error	5xx
 
+HOW TO USE
+$status = new HttpStatusCode();
+$httpStatus = $status->getHttpStatusCode(200);
+print_r( $httpStatus );
 */
 
 class HttpStatusCode{
