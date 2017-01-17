@@ -1,0 +1,16 @@
+{
+	"name": "veb/php-bundle",
+	"description": "PHP helper Classes and Traits",
+	"type": "library",
+	"license": "MIT",
+	"authors": [{
+		"name": "vaibhav khedekar",
+		"email": "veb405@gmail.com"
+	}],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"PhpHelper\\": "src/"
+		}
+	}
+}
