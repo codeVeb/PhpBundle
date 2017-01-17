@@ -1,6 +1,6 @@
 <?php
-
-trait RgbHex{
+namespace PhpHelper\Helper\Color;
+class RgbHex{
 
 	function hex2rgb( $color ){
 		$color = trim($color);

@@ -5,13 +5,16 @@ require_once '../vendor/autoload.php';
 /**
  *
  */
-class cls1 {
-  use PhpHelper/RgbHex;
+use PhpHelper\DataObject\HttpStatusCode;
 
-  function test()
+class test {
+
+  function __construct()
   {
-    echo __CLASS__.__METHOD__;
+    $sc = new HttpStatusCode\HttpStatusCode();
+    $sc->getHttpStatusCode(200);
   }
 }
 
+$t = new test();
 ?>
