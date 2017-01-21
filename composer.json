@@ -8,8 +8,7 @@
 		"email": "veb405@gmail.com"
 	}],
 	"require": {
-		"php": "^5.3.3 || ^7.0",
-		"phpunit/phpunit": "^5.7"
+		"php": "^5.3.3 || ^7.0"
 	},
 	"autoload": {
 		"psr-4": {
