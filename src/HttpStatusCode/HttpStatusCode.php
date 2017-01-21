@@ -1,5 +1,5 @@
 <?php
-namespace PhpHelper\DataObject\HttpStatusCode;
+namespace PhpHelper\HttpStatusCode;
 /**
  * Status Code Definitions
  * Each Status-Code is described below, including a description of which method(s) it can follow and any metainformation required in the response.
@@ -24,8 +24,8 @@ class HttpStatusCode{
 		if(array_key_exists($code,$this->status_code)){
 			$http['status_code'] = $this->status_code[$code];
 			$http['status_message'] = $this->status_code[$code]['text'];
-			return $http;
 			// print_r($http);
+			return $http;
 		}
 		return false;
 	}
