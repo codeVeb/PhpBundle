@@ -1,5 +1,5 @@
 <?php
-namespace PhpHelper\Helper\Color;
+namespace PhpHelper\Color;
 class RgbHex{
 
 	function hex2rgb( $color ){

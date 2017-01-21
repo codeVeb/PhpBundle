@@ -1,5 +1,5 @@
 <?php
-namespace PhpHelper\DataObject\HtmlStatusCode;
+namespace PhpHelper\HtmlStatusCode;
 /**
  *
  */
