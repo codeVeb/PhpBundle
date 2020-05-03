@@ -1,2 +1,3 @@
 # PhpBundle
-Php Shortcodes/Functions/classes and all related to php etc.
+
+Php Shortcodes, Functions & Classes and all related to php etc.
